@@ -1,0 +1,49 @@
+#contactImg {float: right;  overflow: hidden; margin: 30px 20px 0px 0px;
+	padding: 0px;}
+
+/* #contactImg img {width: 250px;  border: solid #bbb 1px;} */
+
+ h5,
+ table,
+ tr,
+ td,
+ p
+ {margin: 0px;	padding: 10px 30px;}
+
+ p {color: #666;}
+
+ h5 {margin-top: 20px}
+ table {margin-top: 10px}
+ table p.tel {padding-left: 10px}
+
+
+ h5,  p {font-size: 0.9em; font-style: normal}
+ td p {font-size: 0.7em}
+
+table {margin: 0px 20px}
+td {padding: 0px 2px; font-size: 120%; color: #777}
+td p {padding: 0px 2px}
+
+#contactForm {margin-left: 30px;}
+p.error { color: red}
+
+#form-instructions,
+#contactForm {color: #666;}
+#contactForm {font-family: courier; text-align: left}
+/* #contactForm { border: solid red 0px; width: 100%} */
+#contactForm dt {clear: both; float: left;padding: 0px; margin: 0px}
+#contactForm dt.error { border: solid red 1px;}
+#contactForm dd {float: left; padding: 0px; margin: 0px}
+#contactForm dd {margin-bottom: 10px;}
+#contactForm dd ul.errors {list-style: none; color: red; margin: 0px; padding: 0px}
+#contactForm label {padding: 0px; margin: 0px}
+#contactForm input {padding: 0px; margin: 0px; font-size: 0.9em}
+#contactForm select {padding: 0px; margin: 0px; font-size: 0.9em}
+#contactForm label.error {color: green}
+/*#formFocus {position: absolute; z-index: -1; background-color: #8c8cd2; top: 0px; left: 0px} */
+#formFocus {position: absolute; z-index: -1; top: 0px; left: 0px}
+
+#contact_submit em {color: #777777}
+#contact_submit em {font-weight: normal; font-style: normal}
+#contact_submit em.email {text-decoration: underline}
+#contact_submit .rhs img{height: auto; margin: 20px 20px 0px 20px; border: solid gray 0px; padding: 0px}

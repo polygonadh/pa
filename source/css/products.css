@@ -1,0 +1,124 @@
+/* Always show scroll bars */
+html {overflow: -moz-scrollbars-vertical;  /* For Mozilla */
+      overflow: scroll;                    /* For IE */
+}
+
+#prod {padding: 0px 0px; margin: 30px; border: solid red 1px;}
+
+#products .content, .packing {text-align: center; }
+.packing {padding-left: 0px; padding-right: 0px; }
+
+#products ul,
+#products h3,
+#products h4,
+#products h5,
+#products p,
+#products .centerHolder
+{margin: 0px; padding: 0px}
+
+#products table {margin: 5px auto; border: solid gray 1px; }
+
+#products .product h5 {margin-top: 10px;}
+/* #products .index h5 {margin-top: 10px; margin-bottom: 20px} */
+#products table p {margin: 0px; padding: 5px 10px}
+#products p {margin-top: 15px; margin-bottom: 5px;}
+
+
+/* Heading */
+
+#products h3 {font-size: 120%;}
+#products p.caption {font-size: 100%; margin: 3px 0px 0px 0px; padding: 0px}
+
+
+/* Product captions */
+
+#products .centerHolder {text-align: center; margin-bottom: 20px}
+
+#products .content .productCaptions,
+#products ul {list-style-type: none}
+#products .product ul {margin-top: 20px; margin-bottom:20px;}
+
+#products .content .productCaptions p {text-align: center; font-weight: bold}
+
+#products ul,
+#products ul li,
+#products ul li p {margin: 0px; padding: 0px}
+
+#products .productCaptions ul li p,
+#products .productCaptions { padding: 0px; margin: 0px}
+
+#products ol li p {padding: 1px 0px; margin: 0px;}
+
+/* Navigation area */
+
+/* #products .index h4 {font-size: 100%; text-align: left; color: #555555; margin-bottom: 10px } */
+
+#products .index a {text-decoration: none; font-size: 90%}
+#products .index a:link,
+#products .index a:visited, 
+#products .index a:hover, 
+#products .index a:active {color: #555555}
+
+#products .index a.current:link,
+#products .index a.current:visited, 
+#products .index a.current:hover, 
+#products .index a.current:active {color: #455477}
+
+#products .index a.current {font-weight: bold}
+#products .index a.hover {font-weight: bold}
+#products .index li.navHeading a {font-weight: bold; font-size: 1.2em}
+#products .index li.navHeading {margin-bottom: 20px}
+
+#productGallery img {height: 120px}
+
+#industrialProducts {padding: 0px 0px; margin: 30px 0px;}
+#industrialProducts .textContent {padding: 0px; margin: 0px 20px 0px 0px;}
+#industrialProducts h3{margin-top: 20px}
+
+p.product-title {margin: 20px 30px 5px 30px; padding: 0px; font-weight: bold;}
+#productInfo table {border: solid #000055 1px; padding: 0px; margin: 0px 30px;}
+#productInfo table th,
+#productInfo table td,
+#productInfo table th p,
+#productInfo table td p
+ {margin: 0px; padding: 0px;}
+ 
+#productInfo table th p,
+#productInfo table td p
+ {margin: 1px 5px 1px 5px; padding: 0px;}
+ 
+
+#woodProducts  {border: solid yellow 0px; width: 700px; margin-left: 30px;}
+#woodProducts .prod {border: solid green 0px;}
+#woodProducts ul {list-style-type: none}
+
+#woodProducts ul,
+#woodProducts ul li,
+#woodProducts ul li p {margin: 0px; padding: 0px;}
+
+#woodProducts ul li p {font-style: italic}
+
+#woodProducts ul li p {font-size: 1.1em; color: #505050}
+#woodProducts ul {margin-left: 20px}
+
+#woodProducts .prod .features p {color: #455477}
+
+#woodProducts .prod .features ul,
+#woodProducts .prod img {
+	display: inline-block;
+	zoom: 1;
+	vertical-align: top;
+	*display: inline;
+}
+
+#woodProducts .prod .features {
+	border-width: 1px 1px 0px 1px;
+	border-color: #a0a0a0;
+	border-style: solid;
+	}
+#woodProducts .prod .features ul {width: 35%; margin: 2em 0em 0em 1em}
+#woodProducts .prod img {width: 60%; margin: 10px 0px 10px 10px; padding: 0px;}
+#woodProducts .prod table {width: 100%; border: solid #707070 1px}
+
+#woodProducts h3,
+#woodProducts h5 {margin: 0px; padding: 3em 0px 0.5em 0px;}

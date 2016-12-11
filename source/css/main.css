@@ -1,160 +1,64 @@
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
+body, p, h1, h2, h3, h4, h5, h6 {font-family: Verdana,Arial,sans-serif;}
+body {padding-top: 0px; margin-top: 0px; /*font-size: 76%*/ font-size: 85%}
+p, li {font-size: 1.0em}
+em {font-weight: bold; font-style: normal}
 
-/* Global Reset */
-* {
-  margin: 0;
-  padding: 0;
-}
+strong.strong2 {font-style: italic; font-weight: normal}
 
-html, body { height: 100%; }
+#rootContainer{width:1000px; border: solid #725f34 1px; margin: 10px auto}
+/* #header{height: 75px; overflow: hidden; background-image: url('/images/background.jpg')} */
+#header{height: 75px; overflow: hidden;}
+#headerLogo { margin: 2px 0px 2px 15px; padding: 0px;}
+#headerLogo a {margin: 0; padding: 0px;}
+#headerLogo img{height: 71px; border: none;}
+#nav {border: solid #2d3952 0px; border-width: 0px 0px 1px 0px; font-size: 100%}
+#footer { text-align: center; color: white; font-size: 1em;background-color: #455477;}
+#footer p {padding: 2px; font-size: 90%; text-align: center}
+#footer span {padding: 0px 8px}
+#footer span#footerIso{padding-left: 30px}
+#footer a:link,
+#footer a:visited, 
+#footer a:hover, 
+#footer a:active {color: white}  
 
-body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
-}
+h1, h2, h3, h4, h5, h6, p {margin: 0px; padding-left: 30px; padding-right: 30px}
+p {padding-top: 5px; padding-bottom: 10px; text-align: left;}
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+h3, h4, h5 {font-style: normal; padding-top: 15px; padding-bottom: 0px;}
+h3 {font-weight: bold}
+h3, h4, h5, p.caption2 {color: #455477;}
+h3, h4 {font-size: 120%;}
+h5 {font-size: 110%;}
+p#welcomeHeading {padding-top: 30px;}
+p#welcomeHeading,
 
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
+em.projectFlow {padding-top: 25px; padding-bottom: 0px;
+	font-weight: normal; font-style: normal; font-size: 130%;
+	color: #455477;}
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+#main {text-align: left; margin: 0px; padding: 0px}
 
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
-.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
-}
+.captionText {color: #999; font-style: normal; 
+font-size: 100%; font-weight: bold; padding-top: 15px}
 
-.posts li {
-  line-height: 1.75em;
-}
+.myContentSlider .pagination {display: none;}
+ul#introGallery {list-style:none; margin: 0px; padding: 0px;}
+ul#introGallery li img{border: 1px solid #ccc; padding: 0px; margin: 0px}
 
-.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
-}
+ol {color: #555555}
+ol li p {padding: 1px 0px; margin: 0px;}
 
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
+span#welcomeToMidwest {font-size: 130%; padding-right: 20px; font-weight: bold}
+span#welcomeIso {font-style: italic}
+p#mission{font-size: 100%; font-style: italic; color: #eee; text-align: left; padding: 10px 15px;
+	margin: 10px 20px 10px 20px; background-color: #455477}
 
-.site {
-  font-size: 115%;
-  text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em;
-}
+#introBlockOuter{width: 100%; padding: 0px; margin: 20px 30px; text-align: left;}
+#introBlock{width: 100%; margin: 0px auto;}
+.introLhs {border: none}
+.introRhs {margin: 0px 30px 0px 0px; padding: 0px; border: none;}
 
-.header a {
-  font-weight: bold;
-  text-decoration: none;
-}
+XXdiv.floatDivRight {float: right; padding: 30px}
+XXdiv.floatDivRight img {width: 100%; height: auto}
 
-.title {
-  display: inline-block;
-  margin-bottom: 2em;
-}
-
-.title a {
-  color: #a00;
-}
-
-.title a:hover {
-  color: #000;
-}
-
-.header a.extra {
-  color: #aaa;
-  margin-left: 1em;
-}
-
-.header a.extra:hover {
-  color: #000;
-}
-
-.meta {
-  color: #aaa;
-}
-
-.footer {
-  font-size: 80%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
-  overflow: hidden;
-}
-
-.footer .contact {
-  float: left;
-  margin-right: 3em;
-}
-
-.footer .contact a {
-  color: #8085C1;
-}
-
-.footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
-}
-
-.footer .rss img {
-  border: 0;
-}
-
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
-
-/* standard */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
-}
-
-.post ul, .post ol {
-  margin-left: 1.35em;
-}
-
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
-}
-
-.post pre code {
-  border: none;
-}
-
-/* terminal */
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
-}
-
-.post pre.terminal code {
-  background-color: #333;
-}
+img.general {border: solid gray 1px; padding: 1px} 

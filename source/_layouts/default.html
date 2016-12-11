@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
 <html>
     <head>
         <meta charset="utf-8">
@@ -6,39 +7,76 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
+        <link rel="shortcut icon" href="/favicon.ico">
+        <link rel="icon" type="image/ico" href="/favicon.ico">
+
+        <meta name="keywords" content="quality adhesive manufacturer, woodworking adhesives,
+         industrial adhesive, lamination adhesive, pressure sensitive adhesive,
+         advesive papertube manufacturing, side pasting adhesive, dextrin based adhesive,
+         post forming adhesive, water resistant adhesive, d3 grade adhesive, carpentary,
+         carton manufacturer, box manufacturer, food grade adhesive, flute pasting adhesive,
+         glue, gum, stick, water based adhesive, acrylic based adhesive"/>
+
+        <meta name="Description" content="Manufacturer of adhesives in India">
+
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
 
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/ddsmoothmenu.css">
+        <link rel="stylesheet" href="/theme/ui.core.css">
 
+        <script type="text/javascript" src="/js/main.js"></script>
+        <script type="text/javascript" src="/js/home.js"></script>
+        <script type="text/javascript" src="/jq/jquery-1.3.2.min.js"></script>
+        <script type="text/javascript" src="/jq/ddsmoothmenu.js"></script>
+        <script type="text/javascript" src="/jq/jquery.es/jquery.es.contentpair.js"></script>
+        <script type="text/javascript" src="/jq/jquery.corner-1.98.js"></script>
+        <script type="text/javascript" src="/jq/jquery.innerfade.js"></script>
+
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-32385881-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+        </script>
     </head>
     <body>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
+      <div id='rootContainer'>
 
-          {{ content }}
+    		<div id='header'>
+    			<div id='headerLogo' class='headerLHS'><a href="/"><img src='/images/logo.jpg'/></a></div>
+    			<div class='headerRHS'><img src='/images/banner.jpg'/></div>
+    		</div>
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
+    		<div id='nav' style="z-index: 1000">{% include nav.html %}</div>
+
+    		<div id='main'>{{ content }}</div>
+
+    		<div id="footer">
+    		<p>
+    		<span><a href='/'>Home</a></span> |
+    		<span><a href='/profile'>Company Profile</a></span> |
+    		<span><a href='/products/woodworking#product0'>Wood Working Adhesives</a></span> |
+    		<span><a href='/products/industrial'>Industrial Adhesives</a></span> |
+    		<span><a href='/infrastructure'>Infrastructure</a></span> |
+    		<span><a href='/distributors'>Distributorship</a></span> |
+    		<span><a href='/contact'>Contact Us</a></span>
+    		</p>
+    		<p>
+    			Copyright &copy; Polygon Adhesives &amp; Resins Pvt.Ltd.
+    		</p>
+    		</div>
+    	</div>
 
     </body>
 </html>
