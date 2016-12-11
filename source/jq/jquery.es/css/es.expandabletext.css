@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+
+
+.expandabletext h4 {text-align: left; padding: 0px; margin: 0px; font-weight: normal;}
+.expandabletext h4 a{text-decoration: none; color: navy}
+.expandabletext h4 a:focus{user-focus:none;outline:none;-moz-user-focus:none;moz-outline: none;}
+.expandabletext h4 a:link,
+.expandabletext h4 a:visited{ color: blue }
+.expandabletext h4 a:hover{ color: #5555ff}
+.expandabletext h4 span {padding-right: 0.5em;}
+
+.expandabletext h4 span.icon {background-repeat: no-repeat; background-position: center}
+
+.expandabletext h4 span.expandable {background-image: url('/images/down.gif'); padding-right: 20px}
+.expandabletext h4 span.collapsable {background-image: url('/images/right.gif'); padding-right: 20px}
+
+.expandabletext .monospace{font-family: Courier, MS Courier New, Prestige}
+
