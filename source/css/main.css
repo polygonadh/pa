@@ -17,9 +17,9 @@ strong.strong2 {font-style: italic; font-weight: normal}
 #footer span {padding: 0px 8px}
 #footer span#footerIso{padding-left: 30px}
 #footer a:link,
-#footer a:visited, 
-#footer a:hover, 
-#footer a:active {color: white}  
+#footer a:visited,
+#footer a:hover,
+#footer a:active {color: white}
 
 h1, h2, h3, h4, h5, h6, p {margin: 0px; padding-left: 30px; padding-right: 30px}
 p {padding-top: 5px; padding-bottom: 10px; text-align: left;}
@@ -38,7 +38,7 @@ em.projectFlow {padding-top: 25px; padding-bottom: 0px;
 
 #main {text-align: left; margin: 0px; padding: 0px}
 
-.captionText {color: #999; font-style: normal; 
+.captionText {color: #999; font-style: normal;
 font-size: 100%; font-weight: bold; padding-top: 15px}
 
 .myContentSlider .pagination {display: none;}
